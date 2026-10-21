@@ -34,18 +34,4 @@ dvc status
 ## Observed result
 The captured DVC demonstration output is in [`OUTPUT.txt`](./OUTPUT.txt). It records a temporary local remote, not a shared cloud remote; the DVC objects are not presented as a persistent hosted remote.
 
-## Viva questions
-1. What problem does this tool or workflow solve?
-2. What is one limitation or failure mode?
-3. How can the result be reproduced?
 
-
-## Concept summary
-DVC stores data artifact metadata in the Git workflow and manages data contents in its cache/remote. A local remote is not a shared cloud remote.
-
-## Outcome summary
-The folder includes the dataset generator and DVC procedure. Actual remote transfer requires DVC to be installed and configured.
-
-## Related files
-- [`create_dataset.py`](./create_dataset.py) creates the five-row sample CSV.
-- [`data/`](./data/) is the dataset location for this practical.
